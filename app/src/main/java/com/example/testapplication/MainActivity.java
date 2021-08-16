@@ -10,6 +10,7 @@ import java.util.ArrayList;
 public class MainActivity extends AppCompatActivity {
 
     ArrayList<State> states = new ArrayList<State>();
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -22,8 +23,8 @@ public class MainActivity extends AppCompatActivity {
         // устанавливаем для списка адаптер
         recyclerView.setAdapter(adapter);
     }
-    private void setInitialData(){
 
+    private void setInitialData(){
         states.add(new State ("Бразилия", "Бразилиа"));
         states.add(new State ("Аргентина", "Буэнос-Айрес"));
         states.add(new State ("Колумбия", "Богота"));
@@ -40,4 +41,5 @@ public class MainActivity extends AppCompatActivity {
         states.add(new State ("Уругвай", "Монтевидео"));
         states.add(new State ("Чили", "Сантьяго"));
     }
+    
 }
