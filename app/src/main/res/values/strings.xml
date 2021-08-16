@@ -1,4 +1,4 @@
 <resources>
     <string name="app_name">TestApplication</string>
-    <string name="click_enter">Click Enter!</string>
+    <string name="click_enter">Press Enter!</string>
 </resources>
